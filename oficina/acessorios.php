@@ -7,11 +7,11 @@ require_once 'menu.php';
     <div class="row pecas">
         <div class="col-md-3">
             <div class="card" >
-                <img class="card-img-top" src="imagens/vela.jfif" alt="Imagem de capa do card">
+                <img class="card-img-top" src="imagens/bagageiro.png" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">vela</h5>
-                    <p class="card-text">A ngk e referencia no mercado de produtos automotivos.Vela de auto desempenho para veiculos flex.</p>
-                    <p>R$80,00</p>
+                    <h5 class="card-title">bagageiro</h5>
+                    <p class="card-text">uma otima opcao de comodidade.</p>
+                    <p>R$100,00</p>
                    <!-- Botão para acionar modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vela">
 comprar
@@ -22,10 +22,10 @@ comprar
 
         <div class="col-md-3">
             <div class="card">
-                <img class="card-img-top" src="imagens/freio.jfif" alt="Imagem de capa do card">
+                <img class="card-img-top" src="imagens/organizador.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">freio</h5>
-                    <p class="card-text">alto desempenho e energia para seu carro.</p>
+                    <h5 class="card-title">organizador</h5>
+                    <p class="card-text">organizador p facilita se dia a dia.</p>
                     <p>R$50,00</p>
                     <!-- Botão para acionar modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#freios">
@@ -37,10 +37,10 @@ comprar
 
         <div class="col-md-3">
             <div class="card">
-                <img class="card-img-top" src="imagens/armotecedor.jfif" alt="Imagem de capa do card">
+                <img class="card-img-top" src="imagens/tapete.jpg" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">amortecedor</h5>
-                    <p class="card-text">alto desempenho e energia para seu carro. </p>
+                    <h5 class="card-title>tapete</h5>
+                    <p class="card-text">Tapetes Automotivos com preços incríveis! Para todos os carros nos modelos: Carpete, em PVC, Plástico, Alumínio e Borracha! . </p>
                     <p>R$150,00</p>
                    <!-- Botão para acionar modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#amortecedor">
@@ -52,11 +52,11 @@ comprar
 
         <div class="col-md-3">
             <div class="card">
-                <img class="card-img-top" src="imagens/bieneta.jfif" alt="Imagem de capa do card">
+                <img class="card-img-top" src="imagens/1xg.webp" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">bieleta</h5>
-                    <p class="card-text">bieleta -ande sempre com segurança e estabilidade.</p>
-                    <p>R$100,00</p>
+                    <h5 class="card-title">capa p volante</h5>
+                    <p class="card-text">capas lindas p seu carro.</p>
+                    <p>R$80,00</p>
                     <!-- Botão para acionar modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bieleta">
  comprar
@@ -181,6 +181,29 @@ comprar
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

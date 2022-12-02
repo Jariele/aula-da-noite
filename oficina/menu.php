@@ -34,7 +34,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="pecas.php">Peças</a>
-            <a class="dropdown-item" href="#">Acessórios</a>
+            <a class="dropdown-item" href="acessorios.php">acessorios</a>
             
           </div>
         </li>

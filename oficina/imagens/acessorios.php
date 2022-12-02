@@ -7,11 +7,11 @@ require_once 'menu.php';
     <div class="row pecas">
         <div class="col-md-3">
             <div class="card" >
-                <img class="card-img-top" src="imagens/vela.jfif" alt="Imagem de capa do card">
+                <img class="card-img-top" src="imagens/bagageiro.png" alt="Imagem de capa do card">
                 <div class="card-body">
-                    <h5 class="card-title">vela</h5>
-                    <p class="card-text">A ngk e referencia no mercado de produtos automotivos.Vela de auto desempenho para veiculos flex.</p>
-                    <p>R$80,00</p>
+                    <h5 class="card-title">bagageiro</h5>
+                    <p class="card-text">uma otima opcao de comodidade.</p>
+                    <p>R$100,00</p>
                    <!-- Botão para acionar modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vela">
 comprar
@@ -181,6 +181,29 @@ comprar
     </div>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
