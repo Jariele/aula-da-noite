@@ -37,7 +37,7 @@
     <div class="row servicos text-center">     
       <div class="col-md-3"></div>  
       <div class="col-md-6">
-        <p>Nossos principais objetivos é servir bem a comunidade, oferecer preço justo e 
+        <p>Nossos principais objetivos são servir bem a comunidade, oferecer preço justo e 
           trabalho de qualidade. Para isso contamos com profissionais qualificados e comprometidos
           com a política de nossa empresa.
 </p>

@@ -6,61 +6,62 @@ require_once 'menu.php';
 <div class="container-fluid">
     <div class="row pecas">
         <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="imagens/vela.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Vela NGK</h5>
+                    <p class="card-text">A Ngk é referência no mercado de produtos automotivos. Vela de auto desempenho para veículos flex.</p>
+                    <p>R$ 60,00</p>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vela">
+                      Comprar
+                    </button>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="imagens/bobina.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Bobinas Magnet Marelli</h5>
+                    <p class="card-text">Alto desempenho e energia para seu carro.</p>
+                    <p>R$ 250,00</p>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bobina">
+                      Comprar
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="imagens/bieleta.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                    <h5 class="card-title">Bieleta Nakata</h5>
+                    <p class="card-text">Bieleta Nakata - Ande sempre com segurança e estabilidade.</p>
+                    <p>R$ 70,00</p>
+                   <!-- Botão para acionar modal -->
+                      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bieleta">
+                        Comprar
+                      </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3">
             <div class="card" >
-                <img class="card-img-top" src="imagens/vela.jfif" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">vela</h5>
-                    <p class="card-text">A ngk e referencia no mercado de produtos automotivos.Vela de auto desempenho para veiculos flex.</p>
-                    <p>R$80,00</p>
-                   <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#vela">
-comprar
-</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="imagens/freio.jfif" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">freio</h5>
-                    <p class="card-text">alto desempenho e energia para seu carro.</p>
-                    <p>R$50,00</p>
+                <img class="card-img-top" src="imagens/amortecedor.jpg" alt="Imagem de capa do card">
+                <div class="card-body corpo-card">
+                    <h5 class="card-title">Amortecedores Cofap</h5>
+                    <p class="card-text">A cofap é referência no ramos de peças de suspensão. Deixe seu carro estável e seguro.</p>
+                    </p>R$ 560,00</p>
                     <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#freios">
- comprar
-</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="imagens/armotecedor.jfif" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">amortecedor</h5>
-                    <p class="card-text">alto desempenho e energia para seu carro. </p>
-                    <p>R$150,00</p>
-                   <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#amortecedor">
- comprar
-</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="card">
-                <img class="card-img-top" src="imagens/bieneta.jfif" alt="Imagem de capa do card">
-                <div class="card-body">
-                    <h5 class="card-title">bieleta</h5>
-                    <p class="card-text">bieleta -ande sempre com segurança e estabilidade.</p>
-                    <p>R$100,00</p>
-                    <!-- Botão para acionar modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bieleta">
- comprar
-</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#amortecedor">
+                          Comprar
+                        </button>
                 </div>
             </div>
         </div>
@@ -70,51 +71,37 @@ comprar
 </div>
 
 
+
+
+
+
+
+
 <!-- Modal -->
-<div class="modal fade" id="" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade pecas" id="vela" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">vela</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Vela NGK</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        <img class="img-fluid" src="imagens/vela.jpg">
+        <h4>Velas NGK</h4>
+        <p>Soluções inteligentes para seu carro</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">adicionar ao carinho</button>
+        <button type="button" class="btn btn-primary">Adicionar ao Carrinho</button>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="amortecedor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">freio</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <img class="img-fluid" src="imagens/armotecedor.jfif">
-<h4>amortecedor<h4>
-    <p>solucoes inteligentes para seu carro<p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">adicionar ao carinho</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="vela" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade pecas" id="bobina" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -124,20 +111,43 @@ comprar
         </button>
       </div>
       <div class="modal-body">
-      <img class="img-fluid" src="imagens/vela.jfif">
-<h4>velas<h4>
-    <p>solucoes inteligentes para seu carro<p>
+        <img class="img-fluid" src="imagens/bobina.jpg">
+        <h4>Bobinas Magneti Marelli</h4>
+        <p>energia e desempenho para seu carro</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">adicionar ao carinho</button>
+        <button type="button" class="btn btn-primary">Adicionar ao Carrinho</button>
       </div>
     </div>
   </div>
 </div>
 
 <!-- Modal -->
-<div class="modal fade" id="bieleta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade pecas" id="amortecedor" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Amortecedores</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <img class="img-fluid" src="imagens/amortecedor.jpg">
+        <h4>Amortecedores Nakata</h4>
+        <p>Estabilidade e Conforto para seu carro.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        <button type="button" class="btn btn-primary">Adicionar ao Carrinho</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade pecas" id="bieleta" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -147,43 +157,17 @@ comprar
         </button>
       </div>
       <div class="modal-body">
-      <img class="img-fluid" src="imagens/bieneta.jfif">
-<h4>bieleta<h4>
-    <p>solucoes inteligentes para seu carro<p>
+        <img class="img-fluid" src="imagens/bieleta.jpg">
+        <h4>Bieletas</h4>
+        <p>Peças originais e de alta qualidade.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">adicionar ao carinho</button>
+        <button type="button" class="btn btn-primary">Adicionar ao Carrinho</button>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Modal -->
-<div class="modal fade" id="freios" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Título do modal</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      <img class="img-fluid" src="imagens/freio.jfif">
-<h4>freio<h4>
-    <p>solucoes inteligentes para seu carro<p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">adicionar ao carinho</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
 
 
 <?php

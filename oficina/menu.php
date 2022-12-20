@@ -34,7 +34,7 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="pecas.php">Peças</a>
-            <a class="dropdown-item" href="acessorios.php">acessorios</a>
+            <a class="dropdown-item" href="acessorios.php">Acessórios</a>
             
           </div>
         </li>
@@ -43,7 +43,7 @@
           <a class="nav-link" href="#">Fale Conosco</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Área do Cliente</a>
+          <a class="nav-link" href="login.php">Área do Cliente</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
